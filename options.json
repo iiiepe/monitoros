@@ -1,0 +1,8 @@
+{
+	"freeDiskSpaceWidget": "5566008476caa20f004e6845",
+	"fileSystem": "/dev/disk1",
+	"ramWidget": "5565f97576caa20f004e6826",
+	"delay": 60,
+	"messagesWidget": "55634534f47df30f00bf5a85",
+	"freememDangerLimit": 6600000000
+}

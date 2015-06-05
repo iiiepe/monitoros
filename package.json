@@ -1,0 +1,29 @@
+{
+  "name": "basicosmonitor",
+  "version": "0.0.1",
+  "description": "An agent to monitor the OS using Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luiselizondo/basicosmonitor.git"
+  },
+  "keywords": [
+    "monitor",
+    "os"
+  ],
+  "author": "Luis Elizondo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luiselizondo/basicosmonitor/issues"
+  },
+  "homepage": "https://github.com/luiselizondo/basicosmonitor",
+  "dependencies": {
+    "commander": "^2.8.1",
+    "freediskspace": "^0.1.1",
+    "os-monitor": "^1.0.3",
+    "request": "^2.55.0"
+  }
+}

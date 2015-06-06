@@ -1,6 +1,6 @@
 {
   "name": "monitoros",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An agent to monitor the operating system using Node.js and report to Dashi3",
   "main": "index.js",
   "scripts": {

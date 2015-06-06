@@ -1,0 +1,32 @@
+#!/usr/bin/env node
+
+var main = require("./lib/monitor");
+var program = require("commander");
+var fs = require("fs");
+
+program
+.option("-c, --config-file <configfile>", "Path to json file with configuration")
+.description("Monitor the Operating System main values and report them to the Dashboard");
+
+program.parse(process.argv);
+
+if(program.configFile) {
+	fs.readFile(program.configFile, function(err, file) {
+		var options = JSON.parse(file);
+
+		if(!options.access_token) {
+			console.log("An access token is required");
+			process.exit(1);
+		}
+
+		if(!options.delay) {
+			options.delay = 60;
+		}
+
+		main(options);
+	});
+}
+else {
+	console.log("A configuration file is required");
+	process.exit();
+}

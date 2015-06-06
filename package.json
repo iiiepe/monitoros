@@ -1,14 +1,14 @@
 {
-  "name": "basicosmonitor",
+  "name": "monitoros",
   "version": "0.0.1",
-  "description": "An agent to monitor the OS using Node.js",
+  "description": "An agent to monitor the operating system using Node.js and report to Dashi3",
   "main": "index.js",
   "scripts": {
     "test": "npm test"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/luiselizondo/basicosmonitor.git"
+    "url": "https://github.com/iiiepe/monitoros.git"
   },
   "keywords": [
     "monitor",
@@ -17,9 +17,9 @@
   "author": "Luis Elizondo",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/luiselizondo/basicosmonitor/issues"
+    "url": "https://github.com/iiiepe/monitoros/issues"
   },
-  "homepage": "https://github.com/luiselizondo/basicosmonitor",
+  "homepage": "https://github.com/iiiepe/monitoros",
   "dependencies": {
     "commander": "^2.8.1",
     "freediskspace": "^0.1.1",

@@ -45,3 +45,7 @@ _ram.dangerLimit_: The CPU percentage of used memory when an alert will be trigg
 _access_token_: The access token in Dashi3
 
 _delay_: How often you want to run the program in seconds
+
+# Install
+
+		wget -qO- https://raw.githubusercontent.com/iiiepe/monitoros/master/monitoros/setup | sudo sh

@@ -46,6 +46,6 @@ _access_token_: The access token in Dashi3
 
 _delay_: How often you want to run the program in seconds
 
-# Install
+# Install Node.js and MonitorOS
 
-		wget -qO- https://raw.githubusercontent.com/iiiepe/monitoros/master/monitoros/setup | sudo sh
+		wget -qO- https://raw.githubusercontent.com/iiiepe/monitoros/master/setup | sudo sh

@@ -20,17 +20,19 @@ You can create an upstart job to load on boot
 		{
 			"disk": {
 				"fileSystem": "/dev/disk0s2",
-				"uri": "http://dashi.mywebsite.net/api/v1/data/mac-hard-drive"
+				"uri": "http://local.luiselizondo.net/api/v1/data/mac-hard-drive"
 			},
 			"ram": {
 				"dangerLimit": "80",
-				"uri": "http://dashi.mywebsite.net/api/v1/data/mac-memory"
+				"uri": "http://local.luiselizondo.net/api/v1/data/mac-memory"
 			},
 			"cpu": {
-				"uri": "http://dashi.mywebsite.net/api/v1/data/mac-cpu"
+				"uri": "http://local.luiselizondo.net/api/v1/data/mac-cpu"
 			},
 			"messages": {
-				"uri": "http://dashi.mywebsite.net/api/v1/data/messages"
+				"uri": "http://local.luiselizondo.net/api/v1/data/messages",
+				"image": "http://path-to-some-image",
+				"link": "http://path-to-some-link"
 			},
 			"access_token": "yfERm7mXNdRPV93am4a22ir9PcxHmExq5JW0H6gLez99o0pL5RRBX1pXwMp0X4Ai",
 			"delay": 60
